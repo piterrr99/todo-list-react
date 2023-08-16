@@ -1,0 +1,36 @@
+body{
+    padding: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    width: 350px;
+}
+
+ul>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: auto;
+}
+
+ul button{
+    margin-left: 90px;
+}
+
+form>button{
+    width:100%;
+}
+
+li{
+    cursor: pointer;
+}
+
+.complete{
+    text-decoration-line: line-through;
+}
